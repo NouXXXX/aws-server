@@ -21,6 +21,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
-          script: |
+          script: | 
             cd aws-server
             git pull
